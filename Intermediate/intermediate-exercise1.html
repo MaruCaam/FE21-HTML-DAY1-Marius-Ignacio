@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Intermediate Exercise Contact Form</title>
+</head>
+
+<body>
+    <h1>Contact CodeFactory</h1>
+
+    <form action="">
+        <p>Username:
+            <input type="text" name="Username" size="15" maxlength="30" />
+        </p>
+
+        <p>Password:
+            <input type="Password" name="Password" size="15" maxlength="30">
+        </p>
+
+        <form action="">
+            <fieldset>
+                <legend>Contact details</legend>
+                <label>First Name:<br /><input type="text" name="first name" /></label><br />
+                <label>Last Name:<br /><input type="text" name="last name" /></label><br />
+                <label>Email:<br /><input type="text" name="email" /></label><br />
+                <label>Mobile:<br /><input type="text" name="mobile" /></label><br />
+                <label>Telephone:<br /><input type="text" name="telephone" /></label>
+            </fieldset>
+        </form>
+
+        <form action="">
+            <p>Your Message</p>
+            <textarea name="message" cols="60" rows="8">Message...</textarea>
+        </form>
+
+
+        <form action="">
+            <p>How do you like our Course?:
+                <br />
+                <input type="radio" name="likeability" value="A lot" checked="checked" /> A lot
+                <input type="radio" name="likeability" value="Very much" /> Very Much
+                <input type="radio" name="likeability" value="Love it" /> Love it
+            </p>
+        </form>
+
+
+
+        <form action="">
+            <p> How should we contact you?:
+                <br />
+                <input type="checkbox" name="contact" value="E-mail" checked="checked" /> E-mail
+                <input type="checkbox" name="contact" value="Phone Call" /> Phone Call
+                <input type="checkbox" name="Contact" value="Text" /> Text Message
+            </p>
+        </form>
+
+
+
+        <form action="" method="post">
+            <p>Upload Extra Files</p>
+            <input type="file" name="files" /><br />
+            <input type="submit" value="Upload" />
+        </form>
+
+
+
+        <form action="">
+            <p>Subscribe to our email list:</p>
+            <input type="text" name="email" placeholder="E-mail" />
+            <input type="image" src="C:\Users\Maria\Pictures\submit-b.png" width="70" height="25" />
+        </form>
+        <br>
+
+        <form action="">
+            <h3>For our survey</h3>
+            <label>Age: <input type="text" name="age" /></label>
+            <br/> Gender:
+
+            <input id="female" type="radio" name="gender" value="f">
+            <label for="female">Female</label>
+            <input id="male" type="radio" name="gender" value="m">
+            <label for="male">Male</label>
+            <input id="other" type="radio" name="gender" value="o">
+            <label for="other">Other</label>
+        </form>
+</body>
+
+</html>
